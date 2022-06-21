@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 3
+title: Image/Video Segmentation
 description: a project that redirects to another website
-img: assets/img/7.jpg
+img: assets/img/seg.jpeg
 redirect: https://unsplash.com
 importance: 3
 category: work
