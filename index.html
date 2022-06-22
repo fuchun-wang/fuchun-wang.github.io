@@ -39,14 +39,118 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <style>
-    
+   .badge_self {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: "Roboto", sans-serif;
+    -webkit-text-size-adjust: 100%;
+    list-style: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    vertical-align: middle !important;
+    font-weight: 700 !important;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 0.125rem;
+    color: #fff !important;
+    background-color: #27E278 !important;
+    width: 65px;
+   } 
+   .badge.grey {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: "Roboto", sans-serif;
+    -webkit-text-size-adjust: 100%;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-right: 0.25rem !important;
+    font-weight: 300 !important;
+    background-color: #9e9e9e !important;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 0.125rem;
+    color: #fff !important;
+    display: inline-block;
+   }
 </style>
 </head>
 
 <body data-spy="scroll" data-target=".navbar-nav" data-offset="110">
 
 <!-- LOADER -->
-<div class="preloader">
+<!-- <div class="preloader">
     <div class="loader">
 		<div class="loader-inner ball-scale">
           <div></div>
@@ -54,7 +158,7 @@
           <div></div>
 		</div>
 	</div>
-</div>
+</div> -->
 <!-- END LOADER --> 
 
 <!-- START HEADER -->
@@ -62,9 +166,9 @@
   <div class="container">
     <nav class="navbar navbar-expand-lg"> 
     	<a class="navbar-brand page-scroll" href="#home_section">
-        	<img class="logo_light" src="assets/images/logo_white.png" alt="logo" />
+        	<!-- <img class="logo_light" src="assets/images/logo_white.png" alt="logo" />
             <img class="logo_dark" src="assets/images/logo_dark.png" alt="logo" />
-            <img class="logo_default" src="assets/images/logo_dark.png" alt="logo" />
+            <img class="logo_default" src="assets/images/logo_dark.png" alt="logo" /> -->
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="ion-android-menu"></span> </button>
       	<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
@@ -74,18 +178,18 @@
                 <img class="logo_default" src="assets/images/logo_dark.png" alt="logo" />
             </a>
             <ul class="navbar-nav">
-                <li>
+                <!-- <li>
                     <a class="nav-link active page-scroll" href="#home_section">Home</a>
-                </li>
+                </li> -->
                 <li>
                     <a class="nav-link page-scroll" href="#about">About</a>
                 </li>
                 <li>
                     <a class="nav-link page-scroll" href="#services">News</a>
                 </li>
-                <li>
+                <!-- <li>
                     <a class="nav-link page-scroll" href="#portfolio">Research</a>
-                </li>
+                </li> -->
                 <li>
                     <a class="nav-link page-scroll" href="#experience">Experience</a>
                 </li>
@@ -246,7 +350,7 @@
 <!-- END SECTION SERVICES -->
 
 <!-- START SECTION PORTFOLIO -->
-<section id="portfolio" class="pb_70">
+<section id="portfolio" class="pb_70" style="display: none;">
     <div class="container">
     	<div class="row justify-content-center">
             <div class="col-xl-6 col-lg-7 col-md-9 text-center">
@@ -274,64 +378,6 @@
         <div class="row">
             <div class="col-md-12">
                 <ul class="grid_container gutter_medium work_col3 portfolio_gallery portfolio_style2 animation" data-animation="fadeInUp" data-animation-delay="0.04s">
-                	<!-- <li class="grid-sizer"></li> -->
-                    <!-- START PORTFOLIO ITEM -->
-                    <!-- <li class="grid_item web-design">
-                        <div class="portfolio_item" data-tilt>
-                            <a href="#" class="image_link">
-                                <img src="assets/images/portfolio_item_small1.jpg" alt="image">
-                            </a>
-                                <div class="portfolio_content">
-                                    <div class="link_container">
-                                        <a href="assets/images/portfolio_item1.jpg" class="image_popup"><i class="ion-image"></i></a>
-                                        <a href="portfolio-detail-white.html"><i class="ion-plus"></i></a>
-                                    </div>
-                                    <h5><a href="portfolio-detail-white.html">Branded Products</a></h5>
-                                    <p>Web Design</p>
-                              </div>
-                        </div>
-                    </li> -->
-                    <!-- END PORTFOLIO ITEM -->
-                    <!-- START PORTFOLIO ITEM -->
-                    <!-- <li class="grid_item brands web-design development">
-                        <div class="portfolio_item" data-tilt>
-                            <a href="#" class="image_link">
-                                <img src="assets/images/portfolio_item_small2.jpg" alt="image">
-                            </a>
-                                <div class="portfolio_content">
-                                    <div class="link_container">
-                                        <a href="assets/images/portfolio_item2.jpg" class="image_popup"><i class="ion-image"></i></a>
-                                        <a href="portfolio-detail-white.html"><i class="ion-plus"></i></a>
-                                    </div>
-                                    <h5><a href="portfolio-detail-white.html">Visiting Card</a></h5>
-                                    <p>Branding, Web Design, Development</p>
-                              </div>
-                        </div>
-                    </li> -->
-                    <!-- END PORTFOLIO ITEM -->
-                    <!-- START PORTFOLIO ITEM -->
-                    <!-- <li class="grid_item brands web-design">
-                        <div class="portfolio_item" data-tilt>
-                        	<div class="carousel_slider owl-carousel owl-theme dots_white" data-autoplay="true" data-loop="false" data-animate-in="fadeIn" data-animate-out="fadeOut" data-autoplay-timeout="3000" data-items="1">
-                                <a href="#" class="image_link">
-                                    <img src="assets/images/portfolio_item_small3.jpg" alt="image">
-                                </a>
-                                <a href="#" class="image_link">
-                                    <img src="assets/images/portfolio_item_small4.jpg" alt="image">
-                                </a>
-                         	</div>
-                                <div class="portfolio_content">
-                                    <div class="link_container">
-                                        <a href="assets/images/portfolio_item3.jpg" class="image_popup"><i class="ion-images"></i></a>
-                                        <a href="assets/images/portfolio_item4.jpg" class="image_popup d-none"></a>
-                                        <a href="portfolio-detail-white.html"><i class="ion-plus"></i></a>
-                                    </div>
-                                    <h5><a href="portfolio-detail-white.html">Coffee Cup Mockup</a></h5>
-                                    <p>Branding, Web Design</p>
-                              </div>
-                        </div>
-                    </li> -->
-                    <!-- END PORTFOLIO ITEM -->
                     <!-- START PORTFOLIO ITEM -->
                     <li class="grid_item brands development">
                         <div class="portfolio_item" data-tilt>
@@ -433,73 +479,37 @@
     	<div class="row justify-content-center">
         	<div class="col-xl-6 col-lg-7 col-md-9 text-center">
             	<div class="heading_s1 animation" data-animation="fadeInUp" data-animation-delay="0.02s">
-                	<h2>Work Experiences</h2>
+                	<h2>Professional Services</h2>
                 </div>
-                <p class="animation" data-animation="fadeInUp" data-animation-delay="0.03s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
+                <!-- <p class="animation" data-animation="fadeInUp" data-animation-delay="0.03s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p> -->
             </div>
         </div>
         <div class="row animation" data-animation="fadeInUp" data-animation-delay="0.04s">
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-12 col-sm-12">
                 <div class="icon_box icon_box_style_2">
                     <div class="icon_box_content">
                         <h4>Associated Editor</h4>
-                        <p><span class="text_default">2002-2006</span> Adobe Inc.</p>
+                        <p><span class="text_default">2017-now</span> </p>
                         <hr>
-                        <p>KSII Transactions on Internet and Information Systems (Since 2017).<br><br></p>
+                        <p>KSII Transactions on Internet and Information Systems (Since 2017).</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-12 col-sm-12">
                 <div class="icon_box icon_box_style_2">
                     <div class="icon_box_content">
                         <h4>Reviewer</h4>
-                        <p><span class="text_default">2007-2010</span> Google Inc.</p>
+                        <p><span class="text_default">2013-now</span> </p>
                         <hr>
-                        <p>IJCV, TNNLS, TOMM (Since 2016) <br><br><br></p>
+                        <p>IJCV, TNNLS, TOMM (Since 2016).</p>
+                        <p>IEEE Transactions on Image Processing, IEEE Transactions on Pattern Analysis and Machine Intelligence (Since 2016).</p>                        
+                        <p>IEEE Transactions on Knowledge and Data Engineering (Since 2014).</p>                        
+                        <p>IEEE Transactions on Cybernetics, Transaction on Multimedia, Transaction on Circuits and Systems for Video Technology</p>                        
+                        <p>CVIU, Neurocomputing, MTAP (Since 2013).</p>                        
+                        <p>ACM Multimedia, ICMR, etc..</p>                        
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="icon_box icon_box_style_2">
-                    <div class="icon_box_content">
-                        <h4>Reviewer</h4>
-                        <p><span class="text_default">2010-2013</span> Adobe Inc.</p>
-                        <hr>
-                        <p>IEEE Transactions on Image Processing, IEEE Transactions on Pattern Analysis and Machine Intelligence (Since 2016).</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="icon_box icon_box_style_2">
-                    <div class="icon_box_content">
-                        <h4>Reviewer</h4>
-                        <p><span class="text_default">2010-2013</span> Adobe Inc.</p>
-                        <hr>
-                        <p>IEEE Transactions on Image Processing, IEEE Transactions on Pattern Analysis and Machine Intelligence (Since 2016).</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="icon_box icon_box_style_2">
-                    <div class="icon_box_content">
-                        <h4>Reviewer</h4>
-                        <p><span class="text_default">2010-2013</span> Adobe Inc.</p>
-                        <hr>
-                        <p>CVIU, Neurocomputing, MTAP (Since 2013).<br><br></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="icon_box icon_box_style_2">
-                    <div class="icon_box_content">
-                        <h4>Reviewer</h4>
-                        <p><span class="text_default">2010-2013</span> Adobe Inc.</p>
-                        <hr>
-                        <p>ACM Multimedia, ICMR, etc. <br><br><br></p>
-                    </div>
-                </div>
-            </div>
-    
         </div>
         
     </div>
@@ -518,82 +528,121 @@
                 <div class="cleafix small_divider"></div>
             </div>
         </div>
-        <div class="row justify-content-center">
-        	<div class="col-md-12 animation" data-animation="fadeInUp" data-animation-delay="0.04s">
-            	<div class="carousel_slider testimonial_style1 owl-carousel owl-theme" data-margin="20" data-dots="false" data-loop="true" data-autoplay="true" data-responsive='{"0":{"items": "1"}, "768":{"items": "2"}, "1199":{"items": "3"}}'>
-                	<div class="item">
-                    	<div class="testimonial_box">
-                        	<div class="testimonial_user">
-                                <div class="testimonial_img">
-                                    <img src="assets/images/client_img1.jpg" alt="client"/>
-                                </div>
-                                <div class="client_info">
-                                    <h6>AAAI 21</h6>
-                                    <span>Author</span>
-                                </div>
-                            </div>
-                            <div class="testi_meta">
-                            	<p>Yan Dai, Xuanhan Wang, Lianli Gao, <b>Jingkuan Song</b>, Heng Tao Shen. RSGNet: Relation based Skeleton Graph Network for Crowded Scenes Pose Estimation. AAAI, 2021, accepted. 
-                                    <a href="https://github.com/vikki-dai/RSGNet">code</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                    	<div class="testimonial_box">
-                        	<div class="testimonial_user">
-                                <div class="testimonial_img">
-                                    <img src="assets/images/client_img2.jpg" alt="client"/>
-                                </div>
-                                <div class="client_info">
-                                    <h6>ICCV, 2021</h6>
-                                    <span>Author</span>
-                                </div>
-                            </div>
-                            <div class="testi_meta">
-                                <p>Yuyu Guo, Lianli Gao, Xuanhan Wang, Yuxuan Hu, Xing Xu, Xu Lu, Heng Tao Shen, <b> Jingkuan Song</b> . From General to Specific: Informative Scene Graph Generation via Balance Adjustment. ICCV, 2021, accepted
-                                    <a href="https://github.com/ZhuGeKongKong/SGG-G2S">code</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                    	<div class="testimonial_box">
-                        	<div class="testimonial_user">
-                                <div class="testimonial_img">
-                                    <img src="assets/images/client_img3.jpg" alt="client"/>
-                                </div>
-                                <div class="client_info">
-                                    <h6>IJCAI 21</h6>
-                                    <span>Author</span>
-                                </div>
-                            </div>
-                            <div class="testi_meta">
-                            	<p>Lianli Gao, Yaya Cheng, Qilong Zhang, Xing Xu, <b> Jingkuan Song </b>. Feature Space Targeted Attacks by Statistic Alignment. IJCAI, 2021, accepted.
-                                    <a href="https://github.com/yaya-cheng/PAA-GAA">code</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                    	<div class="testimonial_box">
-                        	<div class="testimonial_user">
-                                <div class="testimonial_img">
-                                    <img src="assets/images/client_img4.jpg" alt="client"/>
-                                </div>
-                                <div class="client_info">
-                                    <h6>AAAI 21</h6>
-                                    <span>Author</span>
-                                </div>
-                            </div>
-                            <div class="testi_meta">
-                            	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, quaeillo inventore veritatis et quasi architecto explicabo.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        
+        <div class="row m-0 p-0" style="border-top: 1px solid #ddd; flex-direction: row-reverse;">
+            <div class="col-sm-1 mt-2 p-0 pr-1">
+              <h3 class="bibliography-year">2022</h3>
             </div>
+            <div class="col-sm-11 p-0">
+              <ol class="bibliography">
+            
+        
+                <li><div class="row m-0 mt-3 p-0">
+                     <div class="col-sm-1 p-0 abbr">
+                <a class="badge_self font-weight-bold light-blue darken-1 align-middle" style="width: 65px;" href="https://arxiv.org/" target="_blank">
+                  arXiv
+                </a>
+                    </div>
+          <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+            
+            <div id="bobu2022ICRA" class="col p-0">
+              <h5 class="title mb-0">RSGNet: Relation based Skeleton Graph Network for Crowded Scenes Pose Estimation.</h5>
+              <div class="author">
+                        <nobr> <a href="">Yan Dai,</a> </nobr>              
+                          <nobr><a href="https://cpaxton.github.io/about/" target="_blank">Xuanhan Wang</a>,</nobr>
+        
+                          <nobr><a href="https://research.nvidia.com/person/wei-yang" target="_blank">Lianli Gao</a>,</nobr>
+        
+                          <nobr><a href="https://balakumar-s.github.io/" target="_blank"><b>Jingkuan Song</b></a>,</nobr>
+        
+                          <nobr><a href="https://research.nvidia.com/person/yuwei-chao" target="_blank">Heng Tao Shen</a>,</nobr>
+        
+            
+              </div>
+        
+              <div>
+                <p class="periodical font-italic">
+                    AAAI, 2021
+                </p>
+              </div>
+            
+              <div class="col p-0">
+                
+                  <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#bobu2022ICRA-abstract" role="button" aria-expanded="false" aria-controls="bobu2022ICRA-abstract">Abstract</a>
+                
+                  <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/NVIDIA/bobu2022ICRA.pdf" target="_blank">PDF</a>
+                  <a class="badge grey waves-effect font-weight-light mr-1" href="https://github.com/vikki-dai/RSGNet" target="_blank">Code</a>
+                
+              </div>
+            
+              <div class="col mt-2 p-0">
+                <div id="bobu2022ICRA-abstract" class="collapse">
+                  <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+                    This is an official pytorch implementation of " RSGNet: Relation based Skeleton Graph Network for Crowded Scenes Pose Estimation". In this work, we are committed to solving the problem of multi-person pose estimation under the condition of “crowded scenes”, where RGB images capture complex real-world scenes with highly-overlapped people, severe occlusions and diverse postures. In particular, we focus on two main problems: 1) how to design an effective pipeline for crowded scenes pose estimation; and 2) how to equip this pipeline with the ability of relation modeling for interference resolving. To tackle these problems, we propose a new pipeline named Relation based Skeleton Graph Network (RSGNet). 
+            </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
         </div>
+        </li>
+        
+        
+        
+            <li><div class="row m-0 mt-3 p-0">
+                     <div class="col-sm-1 p-0 abbr">
+                <a class="badge_self font-weight-bold light-blue darken-1 align-middle" style="width: 65px;" href="https://journals.sagepub.com/home/ijr" target="_blank">
+                  IJRR
+                </a>
+                    </div>
+          <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+            
+            <div id="bobu2022IJRR" class="col p-0">
+              <h5 class="title mb-0">Inducing Structure in Reward Learning by Learning Features</h5>
+              <div class="author">
+                        
+                                            <nobr><em>Andreea Bobu</em>,</nobr>
+                      
+                          <nobr><a href="https://www.linkedin.com/in/marius-wiggert/" target="_blank">Marius Wiggert</a></nobr><a href="https://www.linkedin.com/in/marius-wiggert/" target="_blank"><nobr></nobr></a>,
+                        
+                          <nobr><a href="https://people.eecs.berkeley.edu/~tomlin/" target="_blank">Claire J. Tomlin</a>,</nobr>
+                      
+                                            and
+                        
+                          <nobr><a href="https://people.eecs.berkeley.edu/~anca/" target="_blank">Anca D. Dragan</a>.</nobr>
+              </div>
+              <div>
+                <p class="periodical font-italic">
+                  The International Journal of Robotics Research
+                </p>
+              </div>
+            
+              <div class="col p-0">
+                
+                  <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#bobu2022IJRR-abstract" role="button" aria-expanded="false" aria-controls="bobu2022IJRR-abstract">Abstract</a>
+                
+                  <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/FERL/bobu2022IJRR.pdf" target="_blank">PDF</a>
+                  
+              </div>
+            
+              
+              <div class="col mt-2 p-0">
+                <div id="bobu2022IJRR-abstract" class="collapse">
+                  <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+            Reward learning enables robots to learn adaptable behaviors from human input. Traditional methods model the reward as a linear function of hand-crafted features, but that requires specifying all the relevant features a priori, which is impossible for real-world tasks. To get around this issue, recent deep Inverse Reinforcement Learning (IRL) methods learn rewards directly from the raw state but this is challenging because the robot has to implicitly learn the features that are important and how to combine them, simultaneously. Instead, we propose a divide and conquer approach: focus human input specifically on learning the features separately, and only then learn how to combine them into a reward. We introduce a novel type of human input for teaching features and an algorithm that utilizes it to learn complex features from the raw state space. The robot can then learn how to combine them into a reward using demonstrations, corrections, or other reward learning frameworks. We demonstrate our method in settings where all features have to be learned from scratch, as well as where some of the features are known. By first focusing human input specifically on the feature(s), our method decreases sample complexity and improves generalization of the learned reward over a deepIRL baseline. We show this in experiments with a physical 7DOF robot manipulator, as well as in a user study conducted in a simulated environment.
+            </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+                    
+        </li></ol>    
+            </div>
+          </div>
+
     </div>
 </section>
 <!-- END SECTION TESTIMONIAL -->
