@@ -38,7 +38,9 @@
 <!-- Style CSS -->
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
-
+<style>
+    
+</style>
 </head>
 
 <body data-spy="scroll" data-target=".navbar-nav" data-offset="110">
@@ -137,8 +139,8 @@
     <div class="container">
         <div class="row">
                 <div class="col-md-4">
-                	<div class="about_img animation" data-animation="fadeInUp" data-animation-delay="0.02s">
-                    	<img src="assets/images/prof_pic.jpg" alt="about_img"/>
+                	<div class="about_img animation" data-animation="fadeInUp" data-animation-delay="0.02s" style="max-width: 70%; margin: 0 auto">
+                    	<img src="assets/images/prof.png" alt="about_img"/>
                     </div>
                 </div>
                 <div class="col-md-8">
@@ -146,13 +148,24 @@
                         <div class="heading_s1 mb-3"> 
                           <h2>About Me</h2>
                         </div>
-                        <p>
-                            Jingkuan Song is a full professor with <a href="https://www.uestc.edu.cn/"> University of Electronic Science and Technology of China (UESTC) </a>.
-                            He joined <a href="https://www.columbia.edu/">Columbia University</a> as a Postdoc Research Scientist (2016-2017), 
-                            and <a href="http://www.unitn.it/">University of Trento</a> as a Research Fellow (2014-2016). 
-                            He obtained his PhD degree in 2014 from The University of Queensland (UQ), Australia (advised by <a href="https://cfm.uestc.edu.cn/~shenht/">Prof. Heng Tao Shen</a>). His research interest includes large-scale multimedia retrieval, image/video segmentation and image/video understading using hashing, graph learning and deep learning techniques. He was the winner of the Best Paper Award in ICPR (2016, Mexico), Best Student Paper Award in Australian Database Conference (2017, Australia), and Best Paper Honorable Mention Award (2017, Japan). He is Guest Editor of TMM, WWWJ and he is PC member of CVPR’18, MM'18, IJCAI'18, etc.
-                        </p> 
-                        <b>I am looking for highly motivated PhD students, Postdoctorals and Assistant Professors to conduct world-class research in my team. Please send your CV or enquiries to my email.</b>
+                        <div>
+                            <a href="javascript:void(0)" onclick="show_en()">Short Biography</a> |
+                            <a href="javascript:void(0)" onclick="show_ch()">中文简介</a>
+                        </div>
+                        <div id="english_about_me">
+                            <p>
+                                Jingkuan Song is a full professor with <a href="https://www.uestc.edu.cn/"> University of Electronic Science and Technology of China (UESTC) </a>.
+                                He joined <a href="https://www.columbia.edu/">Columbia University</a> as a Postdoc Research Scientist (2016-2017), 
+                                and <a href="http://www.unitn.it/">University of Trento</a> as a Research Fellow (2014-2016). 
+                                He obtained his PhD degree in 2014 from The University of Queensland (UQ), Australia (advised by <a href="https://cfm.uestc.edu.cn/~shenht/">Prof. Heng Tao Shen</a>). His research interest includes large-scale multimedia retrieval, image/video segmentation and image/video understading using hashing, graph learning and deep learning techniques. He was the winner of the Best Paper Award in ICPR (2016, Mexico), Best Student Paper Award in Australian Database Conference (2017, Australia), and Best Paper Honorable Mention Award (2017, Japan). He is Guest Editor of TMM, WWWJ and he is PC member of CVPR’18, MM'18, IJCAI'18, etc.
+                            </p> 
+                            <b>I am looking for highly motivated PhD students, Postdoctorals and Assistant Professors to conduct world-class research in my team. Please send your CV or enquiries to my email.</b>    
+                        </div>
+                        <div id="chinese_about_me" style="display: none;">
+                            <p>宋井宽，电子科技大学教授，博士生导师。2014年博士毕业于澳大利亚昆士兰大学，2014-2016年在特伦托大学担任博士后，2016-2017在哥伦比亚大学担任博士后研究员。在多媒体、计算机视觉、人工智能等领域的重要会议和期刊发表论文近100篇，谷歌学术引用1600余次, H-index = 20。2016年获模式识别国际会议ICPR最佳论文奖，2017获信息检索顶级会议SIGIR最佳论文提名奖。担任国际SCI期刊(WWW Journal、TMM)的客座编委，担任IEEE TPAMI, IEEE TIP, IEEE TMM, IJCV等多个顶级期刊的特邀评审和多个国际顶级会议(CVPR’18, MM'18, IJCAI'18)的程序委员。宋井宽教授曾主持多项科研项目(如自然科学基金)。与微软研究院、京东、华为、腾讯研究院等多个一流企业研究机构长期保持紧密的合作关系。</p>
+                            <b>宋井宽教授常年招收有志于长期在多媒体、计算机视觉和人工智能领域进行国际前沿研究的全职博士生和博士后（提供极具竞争力的年薪和科研配套支持），根据申请人背景可在攻读期间派送至澳大利亚昆士兰大学、哥伦比亚大学、南洋理工大学等知名高校进行联合培养，并提供奖学金支持。感兴趣者请发送个人学术简历至 jingkuan.song@gmail.com。</b>
+                        </div>
+                        
                         <hr>
                         <div class="heading_s1 mb-4"> 
                             <h5>Basic Info</h5>
@@ -201,74 +214,31 @@
                  <!-- <p class="animation" data-animation="fadeInUp" data-animation-delay="0.03s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p> -->
             </div>
         </div>
-        <div class="row animation" data-animation="fadeInUp" data-animation-delay="0.04s">
-        	<div class="col-lg-4 col-sm-6 text-center">
-            	<div class="icon_box icon_box_style_1">
-                    <div class="box_icon mb-3">	
-                        <i class="ti-image"></i>
-                    </div>
-                    <div class="icon_box_content">
-                        <h5>May. 1, 2021</h5>
-                        <p>I will serve as Technical Demo Chairs for ACM MM 21!</p>
-                    </div>
-                </div>
+        <div class="row" id="seq">
+            <div class="col-lg-12">
+              <ul>
+                  <li>
+                    <h5 class="text-muted"> May. 1, 2021: I will serve as Technical Demo Chairs for ACM MM 21! <span class="backgroundRed badge badge-danger">New!</span></h5> 
+                  </li>
+                  <li>
+                    <h5 class="text-muted"> May. 1, 2021: 2 IJCAI & 1 AAAI are accepted!</h5> 
+                  </li>
+                  <li>
+                    <h5 class="text-muted"> Aug. 20, 2020: 4 ACM MM & 2 IJCAI & 1 ECCV & 1 AAAI are accepted!</h5> 
+                  </li>
+                  <li>
+                    <h5 class="text-muted"> Jun. 18, 2019: I will serve as Associate Editor for TOMM!</h5> 
+                  </li>
+                  <li>
+                    <h5 class="text-muted"> May. 09, 2019: 5 IJCAI papers are accepted!</h5> 
+                  </li>
+                  <li>
+                    <h5 class="text-muted"> Feb. 01, 2019: 4 AAAI & 1 TPAMI & 1 TIP papers are accepted!</h5> 
+                  </li>
+                  
+              </ul>
             </div>
-            <div class="col-lg-4 col-sm-6 text-center">
-            	<div class="icon_box icon_box_style_1">
-                    <div class="box_icon mb-3">	
-                        <i class="ti-video-camera"></i>
-                    </div>
-                    <div class="icon_box_content">
-                        <h5>May. 1, 2021</h5>
-                        <p>2 IJCAI & 1 AAAI are accepted!     <br>       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 text-center">
-            	<div class="icon_box icon_box_style_1">
-                    <div class="box_icon mb-3">	
-                        <i class="ti-crown"></i>
-                    </div>
-                    <div class="icon_box_content">
-                        <h5>Aug. 20, 2020:</h5>
-                        <p>4 ACM MM & 2 IJCAI & 1 ECCV & 1 AAAI are accepted!</p>
-                    </div>
-                 </div>
-            </div>
-        	<div class="col-lg-4 col-sm-6 text-center">
-            	<div class="icon_box icon_box_style_1">
-                    <div class="box_icon mb-3">	
-                        <i class="ti-light-bulb"></i>
-                    </div>
-                    <div class="icon_box_content">
-                        <h5>Jun. 18, 2019:</h5>
-                        <p> I will serve as Associate Editor for TOMM!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 text-center">
-            	<div class="icon_box icon_box_style_1">
-                    <div class="box_icon mb-3">	
-                        <i class="ti-mobile"></i>
-                    </div>
-                    <div class="icon_box_content">
-                        <h5>May. 09, 2019</h5>
-                        <p> 5 IJCAI papers are accepted! <br><br></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 text-center">
-            	<div class="icon_box icon_box_style_1">
-                    <div class="box_icon mb-3">	
-						<i class="ti-camera"></i>
-                    </div>
-                    <div class="icon_box_content">
-                        <h5>Feb. 01, 2019</h5>
-                        <p>4 AAAI & 1 TPAMI & 1 TIP papers are accepted!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+          </div>
     </div>
 </section>
 <!-- END SECTION SERVICES -->
@@ -561,7 +531,9 @@
                                 </div>
                             </div>
                             <div class="testi_meta">
-                            	<p>Yan Dai, Xuanhan Wang, Lianli Gao, Jingkuan Song, Heng Tao Shen. RSGNet: Relation based Skeleton Graph Network for Crowded Scenes Pose Estimation. AAAI, 2021, accepted. </p>
+                            	<p>Yan Dai, Xuanhan Wang, Lianli Gao, <b>Jingkuan Song</b>, Heng Tao Shen. RSGNet: Relation based Skeleton Graph Network for Crowded Scenes Pose Estimation. AAAI, 2021, accepted. 
+                                    <a href="https://github.com/vikki-dai/RSGNet">code</a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -572,12 +544,14 @@
                                     <img src="assets/images/client_img2.jpg" alt="client"/>
                                 </div>
                                 <div class="client_info">
-                                    <h6>AAAI 21</h6>
+                                    <h6>ICCV, 2021</h6>
                                     <span>Author</span>
                                 </div>
                             </div>
                             <div class="testi_meta">
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, quaeillo inventore veritatis et quasi architecto explicabo.</p>
+                                <p>Yuyu Guo, Lianli Gao, Xuanhan Wang, Yuxuan Hu, Xing Xu, Xu Lu, Heng Tao Shen, <b> Jingkuan Song</b> . From General to Specific: Informative Scene Graph Generation via Balance Adjustment. ICCV, 2021, accepted
+                                    <a href="https://github.com/ZhuGeKongKong/SGG-G2S">code</a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -588,12 +562,14 @@
                                     <img src="assets/images/client_img3.jpg" alt="client"/>
                                 </div>
                                 <div class="client_info">
-                                    <h6>AAAI 21</h6>
+                                    <h6>IJCAI 21</h6>
                                     <span>Author</span>
                                 </div>
                             </div>
                             <div class="testi_meta">
-                            	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, quaeillo inventore veritatis et quasi architecto explicabo.</p>
+                            	<p>Lianli Gao, Yaya Cheng, Qilong Zhang, Xing Xu, <b> Jingkuan Song </b>. Feature Space Targeted Attacks by Statistic Alignment. IJCAI, 2021, accepted.
+                                    <a href="https://github.com/yaya-cheng/PAA-GAA">code</a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -744,7 +720,7 @@
             </div>
             <div class="col-md-6">
             	<div class="contact_map mt-4 mt-md-0 animation" data-animation="fadeInUp" data-animation-delay="0.03s">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193229.77301255226!2d-74.05531241936525!3d40.823236500441624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f613438663b5%3A0xce20073c8862af08!2sW+123rd+St%2C+New+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1533565007513" allowfullscreen=""></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109728.39912037892!2d103.78683328628541!3d30.74615114847335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x36efdd8520bad545%3A0xae7f9b2a08f669b5!2z55S15a2Q56eR5oqA5aSn5a2m5riF5rC05rKz5qCh5Yy6!5e0!3m2!1szh-CN!2shk!4v1655887868563!5m2!1szh-CN!2shk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
@@ -755,7 +731,7 @@
 <!-- START FOOTER SECTION --> 
 <footer class="bg_gray">
 	<div class="top_footer">
-        <div class="container">
+        <!-- <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
                 	<div class="footer_logo">
@@ -782,7 +758,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -835,6 +811,15 @@
 <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
 <!-- scripts js --> 
 <script src="assets/js/scripts.js"></script>
-
+<script>
+    let show_en = function(){
+        document.getElementById("english_about_me").style.display = "none";
+        document.getElementById("chinese_about_me").style.display = "";
+    }
+    let show_ch = function() {
+        document.getElementById("english_about_me").style.display = "";
+        document.getElementById("chinese_about_me").style.display = "none";
+    }
+</script>
 </body>
 </html>
