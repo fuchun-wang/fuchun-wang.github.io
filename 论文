@@ -1,0 +1,106 @@
+2022
+1. Junchen Zhu, Lianli Gao, Jingkuan Song, Yuan-Fang Li, Feng Zheng, Xuelong Li, Heng Tao Shen. Label-Guided Generative Adversarial Network for Realistic Image Synthesis. TPAMI, 2022. JCR-1.
+      Code: https://github.com/RoseRollZhu/Lab2Pix
+2. Ye Liu, Yaya Cheng, Lianli Gao, Xianglong Liu, Qilong Zhang, Jingkuan Song. Practical Evaluation of Adversarial Robustness via Adaptive Auto Attack. CVPR. CCF-A. 
+       Code: https://github.com/liuye6666/adaptive_auto_attack
+3. Xinyu Lyu, Lianli Gao, Yuyu Guo, Zhou Zhao, Hao Huang, Heng Tao Shen, Jingkuan Song. Fine-Grained Predicates Learning for Scene Graph Generation. CVPR 2022. CCF-A. 
+       Code: https://github.com/XinyuLyu/FGPL
+4. Hao Ni, Jingkuan Song, Xiaopeng Luo, Feng Zheng, Wen Li, Heng Tao Shen. Meta Distribution Alignment for Generalizable Person Re-Identification. CVPR. CCF A.
+Code: https://github.com/haoni0812/MDA
+5. Xiaosu Zhu, Jingkuan Song, Lianli Gao, Feng Zheng, Heng Tao Shen. Unified Multivariate Gaussian Mixture for Efficient Neural Image Compression. CVPR. CCF A.
+6. Qilong Zhang, Xiaodan Li, Yuefeng Chen, Jingkuan Song, Lianli Gao, Yuan He, Hui Xue. Beyond ImageNet Attack: Towards Crafting Adversarial Examples for Black-box Domains. ICLR.                                                                      
+Code: https://github.com/Alibaba-AAIG/Beyond-ImageNet-Attack
+7. Lianli Gao, Yu Lei, Pengpeng Zeng, Jingkuan Song, Meng Wang, Heng Tao Shen. Hierarchical Representation Network with Auxiliary Tasks for Video Captioning and Visual question answering. TIP. JCR-1.
+Code: https://github.com/riesling00/HRNAT
+8. Pengpeng Zeng, Haonan Zhang, Jingkuan Song, Lianli Gao. S2 Transformer for Image Captioning. IJCAI. CCF A.
+Code：https://github.com/zchoi/S2-Transformer
+9. Xuanhan Wang, Lianli Gao, Yixuan Zhou, Jingkuan Song, Meng Wang. KTN: Knowledge Transfer Network for Learning Multi-person 2D-3D Correspondences. TCSVT. JCR-2.
+Code: https://github.com/stoa-xh91/HumanDensePo
+10. Ji Zhang, Jingkuan Song, Lianli Gao, Ye Liu, Hengtao Shen, Progressive Meta-learning with Curriculum, IEEE Transactions on Circuits and Systems for Video Technology. TCSVT. JCR-2.
+      Code: https://github.com/nobody-777/CubMeta
+11. Jingkuan Song, Jingqiu Zhang, Lianli Gao, Zhou Zhao, Heng Tao Shen. AgeGAN++: Face Aging and Rejuvenation With Dual Conditional GANs.. TMM, 2022. JCR-2.
+      Code: https://github.com/Sherry-JQ/AgeGAN
+12. Xiangpeng Li, Bo Wu, Jingkuan Song, Lianli Gao, Pengpeng Zeng, Chuang Gan. Text-Instance Graph: Exploring Relational Semantics for Text-based Visual Question Answering. Pattern Recognition. JCR-2.
+Code：https://github.com/lixiangpengcs/pythia
+2021
+1. Yuyu Guo, Lianli Gao, Xuanhan Wang, Yuxuan Hu, Xing Xu, Xu Lu, Heng Tao Shen, Jingkuan Song. From General to Specific: Informative Scene Graph Generation via Balance Adjustment. ICCV. CCF-A.
+Code: https://github.com/ZhuGeKongKong/SGG-G2S
+2. Tao He, Lianli Gao, Jingkuan Song, Yuan-Fang Li. Exploiting Scene Graphs for Human-Object Interaction Detection Tao. ICCV. CCF-A.
+Code: https://github.com/ht014/SG2HOI
+3.Yuyu Guo, Lianli Gao, Jingkuan Song, Peng Wang, Nicu Sebe, Heng Tao Shen, Xuelong Li. Relation Regularized Scene Graph Generation. TOC. JCR-1.
+Code: https://github.com/gyy8426/R2-Net
+4. Yan Dai, Xuanhan Wang, Lianli Gao, Jingkuan Song, Heng Tao Shen. Rsgnet: Relation based skeleton graph network for crowded scenes pose estimation. AAAI. CCF-A.
+Code: https://github.com/vikki-dai/RSGNet
+5. Lianli Gao, Yaya Cheng, Qilong Zhang, Xing Xu, Jingkuan Song. Feature Space Targeted Attacks by Statistic Alignment. IJCAI. CCF-A.                                                                                                                                
+Code: https://github.com/yaya-cheng/PAA-GAA
+6. Sitong Su, Jingkuan Song, Lianli Gao, Junchen Zhu. Towards Unsupervised Deformable-Instances Image-to-Image Translation. In IJCAI, 2021. CCF-A.
+7.Lianli Gao, Zijie Huang, Jingkuan Song, Yang yang, Heng Tao Shen. Push & Pull: Transferable Adversarial Examples With Attentive Attack. TMM. JCR-2.
+8. Xuanhan Wang, Lianli Gao, Jingkuan Song, Yuyu Guo, Heng Tao Shen. AMANet: Adaptive Multi-Path Aggregation for Learning Human 2D-3D Correspondences. TMM 2021. JCR-2. 
+       Code: https://github.com/stoa-xh91/AMANet-pytorch
+9. Xuanhan Wang, Lianli Gao, Yan Dai, Yixuan Zhou, Jingkuan Song. Semantic-aware Transfer with Instance-adaptive Parsing for Crowded Scenes Pose Estimation. ACM MM. CCF-A.
+        Code: https://github.com/stoa-xh91/STIP
+10. Sitong Su, Lianli Gao, Junchen Zhu, Jie Shao, Jingkuan Song. Fully Functional Image Manipulation Using Scene Graphs in A Bounding-Box Free Way. In ACM MM,2021. CCF-A.
+11. Ji Zhang, Jingkuan Song, Yazhou Yao, Lianli Gao. Curriculum-Based Meta-learning. ACM MM. CCF-A.
+12. Hao Ni, Jingkuan Song, Xiaosu Zhu, Feng Zheng, Lianli Gao. Camera-Agnostic Person Re-Identification via Adversarial Disentangling Learning. ACM MM. CCF A.
+Code: https://github.com/luckyaci/ADL_ReID
+13. Pengpeng Zeng, Lianli Gao, Xinyu Lyu, Shuaiqi Jing, Jingkuan Song. Conceptual and Syntactical Cross-modal Alignment with Cross-level Consistency for Image-Text Matching. ACM MM. CCF-A.
+14. Xiangpeng Li, Lianli Gao, Lei Zhao, Jingkuan Song. Exploring Contextual-Aware Representation and Linguistic-Diverse Expression for Visual Dialog. ACM MM. CCF-A.
+Code: https://github.com/lixiangpengcs/CARE
+15. Lianli Gao, Daiyuan Chen, Zhou Zhao, Jie Shao, Heng Tao Shen. Lightweight dynamic conditional GAN with pyramid attention for text-to-image synthesis. PR, 2021. JCR-2.
+      Code: https://github.com/nobody-777/SepMeta
+16. Lei Zhao, Xinyu Lu, Jingkuan Song, Lianli gao. Guess which? Visual Dialog with Attentive Memory Network. Pattern Recognition 2021. JCR-2.
+17. Lianli Gao, Tangming Chen, Xiangpeng Li, Pengpeng Zeng, Lei Zhao, Yuan-Fang Li. Generalized Pyramid Co-Attention with Learnable Aggregation Net for Video Question Answering. Pattern Recognition. JCR-2.
+Code: https://github.com/lixiangpengcs/LAD-Net-for-VideoQA
+18. Lei Zhao, Haonan Zhang, Xiangpeng Li, Sen Yang, Yuanfeng Song. You Should Know More: Learning External Knowledge for Visual Dialog. Neurocomputing. JCR-2.
+
+
+2020
+1. Lianli Gao, Xiangpeng Li, Jingkuan Song and Heng Tao Shen. Hierarchical LSTMs with Adaptive Attention for Visual Captioning. IEEE Trans. on Pattern Analysis and Machine Intelligence. TPAMI 2020. JCR-1.
+Code: https://github.com/lixiangpengcs/Spatial-Temporal-Adaptive-Attention-for-Video-Captioning
+2. Liyang Zhang, Shuaicheng Liu, Donghao Liu, Pengpeng Zeng, Xiangpeng Li, Jingkuan Song, Lianli Gao. Rich Visual Knowledge-Based Augmentation Network for Visual Question Answering. TNNLS 2020. JCR-1.
+Code: https://github.com/yyyanglz/KAN
+3. Lianli Gao, Qilong Zhang, Jingkuan Song, Xianglong Liu, Heng Tao Shen. Patch-wise attack for fooling deep neural network. ECCV. CCF-B.                                                                                                        
+Code: https://github.com/qilong-zhang/Patch-wise-iterative-attack
+4. Xuanhan Wang, Lianli Gao, Jingkuan Song, Heng Tao Shen. Ktn: Knowledge transfer network for multi-person densepose estimation. ACM MM, 2020. CCF-A.
+Code: https://github.com/stoa-xh91/HumanDensePose
+5. Lianli Gao, Junchen Zhu, Jingkuan Song, Feng Zheng, Heng Tao Shen. Lab2Pix: Label-Adaptive Generative Adversarial Network for Unsupervised Image Synthesis. In ACM MM, 2020. CCF-A.
+ Code: https://github.com/RoseRollZhu/Lab2Pix
+6. Yuyu Guo, Jingkuan Song, Lianli Gao, Heng Tao Shen. One-shot Scene Graph Generation. ACM MM, 2020. CCF-A.
+7. Lianli Gao, Tao Li, Jingkuan Song, Zhou Zhao, Heng Tao Shen. Play and rewind: Context-aware video temporal action proposals. PR, 2020. JCR-2.
+8. Lianli Gao, Yiyue Zhang, Fuhao Zou, Jie Shao, Junyu Lai. Unsupervised urban scene segmentation via domain adaptation. Neurocomputing, 2020. JCR-2.
+Code: https://github.com/gyy8426/OS-SGG
+9. Jingkuan Song, Tao He, Lianli Gao, Xing Xu, Alan Hanjalic, Heng Tao Shen. Unified Binary Generative Adversarial Network for Image Retrieval and Compression. IJCV. JCR-1.
+
+
+
+
+2019
+1. Lianli Gao, Daiyuan Chen, Jingkuan Song, Xing Xu, Dongxiang Zhang, Heng Tao Shen. Perceptual Pyramid Adversarial Networks for Text-to-Image Synthesis. In AAAI, 2019. CCF-A.
+2. Lianli Gao, Kaixuan Fan, Jingkuan Song, Xianglong Liu, Xing Xu, Heng Tao Shen, Deliberate Residual based Attention Network for Image Captioning, AAAI 2019. CCF-A.
+3. Lianli Gao, Pengpeng Zeng, Jingkuan Song, Yuan-Fang Li, Tao Mei, Heng Tao Shen, Structured Two-stream Attention Network for Video Question Answering, AAAI, 2019. CCF-A.
+4. Xiangpeng Li, Lianli Gao, Xianglong Liu, Wenbing Huang, Chuang Gan, Xiangnan He. Beyond RNNs: Positional Self-Attention with Co-Attention for Video Question Answering, AAAI 2019. CCF-A.
+Code: https://github.com/lixiangpengcs/PSAC
+5. Xiangpeng Li, Lianli Gao, Xuanhan Wang, Wu Liu, Xing Xu, Jingkuan Song and Heng Tao Shen, Learnable Aggregating Net with Divergent Loss for Video Question Answering, ACM Multimedia 2019. CCF-A.
+Code: https://github.com/lixiangpengcs/LAD-Net-for-VideoQA
+6. Lianli Gao, Liangfu Cao, Jingkuan Song, Jie Shao, Xing Xu. Question-Led Object Attention for Visual Question Answering, Neurocomputing, 2019. JCR-2.
+7. Xuanhan Wang, Lianli Gao. Fused GRU with Semantic-Temporal Attention for Video Captioning, Neurocomputing, 2019. JCR-2.
+Code: https://github.com/wangxuanhan/stafg-capgen-vid
+8. Lianli Gao, Xiaosu Zhu, Jingkuan Song, Zhou Zhao, Heng Tao Shen. Beyond product quantization: deep progressive quantization for image retrieval. IJCAI 2019. CCF-A.
+9. Jingkuan Song, Xiaosu Zhu, Lianli Gao, Xin-Shun Xu, Wu Liu, Heng Tao Shen. Deep recurrent quantization for generating sequential binary codes. IJCAI 2019. CCF-A.
+
+2018
+1. Jingkuan Song, Jingqiu Zhang, Lianli Gao, Xianglong Liu, Heng Tao Shen. Dual Conditional GANs for Face Aging and Rejuvenation.. In IJCAI, 2018. CCF-A.
+2. Jingkuan Song, Pengpeng Zeng, Lianli Gao, Xianglong Liu, Heng Tao Shen. Examine before You Answer: Multi-task Learning with Adaptive-attentions for Multiple-choice VQA. ACM MM, 2018. CCF-A.
+3. Jingkuan Song, Yuyu Guo, Lianli Gao, Xuelong Li, Alan Hanjalic, Heng Tao Shen. From Deterministic to Generative: Multi-Modal Stochastic RNNs for Video Captioning. TNNLS  2018. JCR-1.
+4. Jingkuan Song, Pengpeng Zeng, Lianli Gao, Heng Tao Shen. From Pixels to Objects: Cubic Visual Attention for Visual Question Answering. IJCAI 2018. CCF-A.
+
+
+2017
+1. Lianli Gao, Zhao Guo, Hanwang Zhang, Xing Xu, Heng Tao Shen*. “Videos Captioning with Attention-based LSTM and Semantic Consistency”. IEEE Trans. on Multimedia. JCR-2.
+2. Jingkuan Song, Lianli Gao, Zhao Guo, Wu Liu, Dongxiang Zhang, Heng Tao Shen. "Hierarchical LSTM with Adjusted Temporal Attention for Video Captioning", IJCAI 2017. CCF-A.
+Code: https://github.com/zhaoluffy/hLSTMat
+3. Jingdong Wang, Ting Zhang, jingkuan song, Nicu Sebe, Heng Tao Shen. A Survey on Learning to Hash. TPAMI. JCR-1.
+
+2016
+1. Zhao Guo, Lianli Gao, Jingkuan Song, Xing Xu, Jie Shao, Heng Tao Shen, “Attention-based LSTM with Semantic Consistency for Videos captioning ", ACM MM 2016.   CCF-A.
+Code: https://github.com/zhaoluffy/aLSTMs
