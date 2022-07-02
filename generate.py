@@ -234,6 +234,7 @@ def main_generate():
             line = line.replace(conf_string+'.', '').strip()
             line = line.replace(conf_string, '').strip()
             conf_list = [('ACM MM', 'ACM MM')
+                , ('ACM Multimedia', 'ACM MM')
                 , ('TNNLS', 'TNNLS')
                 , ('TMM', 'TMM')
                 , ('TPAMI', 'TPAMI')
@@ -246,6 +247,7 @@ def main_generate():
             for conf in conf_list:
                 if conf[0] in conf_string:
                     conf_string = conf[1]
+                    break
 
             # print(line)
 
